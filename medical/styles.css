@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    float: left;
+    cursor: pointer;
+}
+
+#brand {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+
+.btns {
+    border: none;
+    outline: none;
+    background: #2862e0;
+    color: #fff;
+    padding: 8px 15px;
+}
+
+.nav-2 ul li {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 18px;
+}
+
+.nav-2 ul li a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+form {
+    border: 1px solid gray;
+    padding: 20px 25px;
+    border-radius: 5px;
+
+}
+
+div a {
+    text-decoration: none;
+}
+
+form .input input {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+}
+
+form button {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+section ul li {
+    list-style: circle;
+}
+
+.bord {
+    border: 1px solid red;
+    border-style: dashed;
+}
+
+
+@media (max-width:438px) {
+    header {
+        display: flex;
+    }
+
+    #brand {
+        font-size: 2rem;
+        font-weight: 600;
+
+    }
+
+    header .contact,
+    header .count {
+        display: none;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .nav-2 {
+        display: none;
+    }
+
+    #left,
+    #right {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+#doctors {
+    position: relative;
+}
+
+.header-slider ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-slider ul li {
+    list-style: none;
+}
+
+.img-slider {
+    max-width: 100%;
+
+
+}
+
+.header-slider a {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    background: #0c0c0c4f;
+    color: black;
+    padding: 5vh 1vw;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.next_img {
+    right: 0px;
+}
